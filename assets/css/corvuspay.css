@@ -1,0 +1,8 @@
+/* Fix for Chromium issue 929380 (https://bugs.chromium.org/p/chromium/issues/detail?id=929380) */
+.payment_method_corvuspay > label > img {
+    height: 100%;
+    margin: 4%;
+}
+.payment_method_corvuspay > label {
+    display: inline-block!important;
+}

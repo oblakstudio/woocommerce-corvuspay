@@ -1,0 +1,741 @@
+# Copyright (C) 2018 CorvusPay WooCommerce Payment Gateway
+# This file is distributed under the same license as the CorvusPay WooCommerce Payment Gateway package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CorvusPay WooCommerce Payment Gateway 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/corvuspay-"
+"woocommerce-integration\n"
+"POT-Creation-Date: 2021-04-08T14:23:18+02:00\n"
+"PO-Revision-Date: 2024-01-22 08:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hrvatski\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2"
+
+#: includes/class-wc-gateway-corvuspay.php:949
+msgid "\"Other currencies\" option has low precedence."
+msgstr "Opcija \"Ostale valute\" ima niži prioritet."
+
+#: includes/class-wc-gateway-corvuspay.php:1049
+msgid "+ Add installment entry"
+msgstr "+ Dodaj unos rata"
+
+#: includes/class-wc-gateway-corvuspay.php:943
+msgid "+ Add stores settings entry"
+msgstr "+ Dodaj unos postavki prodajnih mjesta"
+
+#: includes/settings.php:60
+msgid "Account Settings"
+msgstr "Postavke računa"
+
+#: includes/settings.php:226
+msgid "Advanced"
+msgstr "Napredne"
+
+#: includes/settings.php:269
+msgid "Alert"
+msgstr "Alert (uzbuna)"
+
+#: includes/settings.php:222
+msgid "Allow installment payments."
+msgstr "Dopusti plaćanje na rate."
+
+#: includes/class-corvuspay-api.php:126 includes/class-corvuspay-api.php:236
+#: includes/class-wc-gateway-corvuspay.php:615
+msgid "An error occurred."
+msgstr "Došlo je do pogreške."
+
+#: includes/class-wc-gateway-corvuspay.php:1453
+msgid "Approval code: "
+msgstr "Broj odobrenja: "
+
+#: includes/class-wc-gateway-corvuspay.php:289
+msgid ""
+"Are you sure you wish to process this capture? This action cannot be undone."
+msgstr "Jeste li sigurni da želite nastaviti? Ova akcija se ne može poništiti."
+
+#: assets/views/hmtl-email-order-details.php:4
+#: assets/views/hmtl-email-order-details.php:8
+#: assets/views/hmtl-email-order-details.php:12
+#: assets/views/hmtl-email-order-details.php:16
+#: assets/views/html-order-capture.php:4
+msgid "Authorization total:"
+msgstr "Ukupno autorizirano:"
+
+#: includes/settings.php:157
+msgid "Authorize"
+msgstr "Predautorizacija"
+
+#: includes/settings.php:14
+msgid "Autodetect"
+msgstr "Automatska detekcija"
+
+#: includes/settings.php:180
+msgid "Automatically redirect user to CorvusPay payment form."
+msgstr "Automatski preusmjeri korisnika na CorvusPay platnu formu."
+
+#: includes/settings.php:200
+msgid "Both mandatory and optional"
+msgstr "I obavezne i opcionalne"
+
+#: assets/views/html-order-capture.php:24
+msgid "Cancel"
+msgstr "Odustani"
+
+#: includes/settings.php:168
+msgid "Cancel URL"
+msgstr "URL za neuspjeh"
+
+#: includes/class-corvuspay-api.php:228
+msgid "Cannot complete order which is not authorized. "
+msgstr "Nije moguće kompletirati narudžbu koja nije pred-autorizirana."
+
+#: assets/views/html-order-capture.php:27
+msgid "Capture %s"
+msgstr "Dovršiti %s"
+
+#: assets/views/html-order-capture.php:10
+msgid "Capture amount:"
+msgstr "Dovršiti s iznosom:"
+
+#: includes/class-wc-gateway-corvuspay.php:1475
+msgid "Capture Charge"
+msgstr "Dovrši naplatu"
+
+#: includes/class-wc-gateway-corvuspay.php:995
+#: includes/class-wc-gateway-corvuspay.php:1011
+msgid "Card brand"
+msgstr "Oznaka kartice"
+
+#: includes/class-wc-order-corvuspay.php:492
+msgid "Card storage"
+msgstr "Pohrana kartice"
+
+#. translators: %1$s: Certificate Common Name, %2$s: Expiration date
+#: includes/class-wc-gateway-corvuspay.php:1113
+msgid "Certificate \"%1$s\" expired on %2$s."
+msgstr "Certifikat \"%1$s\" je istekao %2$s."
+
+#. translators: %1$s: Certificate Common Name, %2$s: Expiration date
+#: includes/class-wc-gateway-corvuspay.php:1119
+msgid "Certificate \"%1$s\" is valid until %2$s."
+msgstr "Certifikat \"%1$s\" vrijedi do %2$s."
+
+#. translators: %1$s: Certificate Common Name, %2$s: Expiration date
+#: includes/class-wc-gateway-corvuspay.php:1116
+msgid "Certificate \"%1$s\" will expire on %2$s."
+msgstr "Certifikat \"%1$s\" istječe %2$s."
+
+#: includes/class-wc-gateway-corvuspay.php:1178
+#| msgid "Certificate is required when Advance installments plan is set."
+msgid "Certificate is required when Advanced installments plan is set."
+msgstr "Certifikat je obavezan kada su postavljene Napredne opcije za rate."
+
+#: includes/class-wc-gateway-corvuspay.php:1168
+msgid "Certificate is required when tokenization is enabled."
+msgstr "Certifikat je obavezan kada je tokenizacija omogućena."
+
+#: includes/settings.php:154
+msgid ""
+"Choose whether you wish to capture funds immediately or authorize payment "
+"only."
+msgstr ""
+"Odaberite želite li odmah zaključiti narudžbu ili samo predautorizirati "
+"plaćanje."
+
+#: includes/class-wc-gateway-corvuspay.php:656
+msgid "Compensation"
+msgstr "Naknada"
+
+#: includes/class-wc-gateway-corvuspay.php:485
+msgid "Continue to payment"
+msgstr "Nastavite na plaćanje"
+
+#: includes/settings.php:170
+msgid "Copy Cancel URL to the CorvusPay Merchant Center"
+msgstr "Kopirajte URL za neuspjeh u CorvusPay Merchant Center"
+
+#: includes/settings.php:123
+msgid "Copy Production Secret Key from the CorvusPay Merchant Center."
+msgstr "Kopirajte produkcijski tajni ključ iz CorvusPay Merchant Centera."
+
+#: includes/settings.php:116
+msgid "Copy Production Store ID from the CorvusPay Merchant Center."
+msgstr ""
+"Kopirajte ID produkcijskog prodajnog mjesta iz CorvusPay Merchant Centera."
+
+#: includes/settings.php:165
+msgid "Copy Success URL to the CorvusPay Merchant Center"
+msgstr "Kopirajte URL za uspjeh u CorvusPay Merchant Center"
+
+#: includes/settings.php:86
+msgid "Copy Test Secret Key from the CorvusPay Merchant Center."
+msgstr "Kopirajte testni tajni ključ iz CorvusPay Merchant Centera."
+
+#: includes/settings.php:79
+msgid "Copy Test Store ID from the CorvusPay Merchant Center."
+msgstr "Kopirajte ID testnog prodajnog mjesta iz CorvusPay Merchant Centera."
+
+#. Author of the plugin
+msgid "Corvus Pay d.o.o."
+msgstr "Corvus Pay d.o.o."
+
+#: includes/class-wc-gateway-corvuspay.php:67
+msgid "CorvusPay"
+msgstr "CorvusPay"
+
+#: includes/class-wc-gateway-corvuspay.php:687
+msgid "CorvusPay Cancel URL Failure"
+msgstr "Greška CorvusPay URL-a za neuspjeh"
+
+#: includes/class-corvuspay-api.php:106
+msgid ""
+"CorvusPay doesn't support partial voids. Order can be partially captured or "
+"fully captured and then partially refunded."
+msgstr ""
+"CorvusPay ne podržava djelomična poništenja. Narudžbu možete djelomično "
+"kompletirati ili potpuno kompletirati pa zatim napraviti djelomičan povrat."
+
+#: includes/class-wc-gateway-corvuspay.php:519
+msgid "CorvusPay payment authorized. Awaiting capture."
+msgstr "CorvusPay plaćanje je predautorizirano. Čeka kompletiranje."
+
+#: includes/class-wc-gateway-corvuspay.php:343
+#: includes/class-wc-gateway-corvuspay.php:359
+#: includes/class-wc-gateway-corvuspay.php:362
+#: includes/class-wc-gateway-corvuspay.php:368
+#: includes/class-wc-gateway-corvuspay.php:465
+#: includes/class-wc-gateway-corvuspay.php:470
+msgid "CorvusPay payment failed."
+msgstr "CorvusPay plaćanje nije uspjelo."
+
+#: includes/class-wc-gateway-corvuspay.php:498
+msgid "CorvusPay Process Receipt Failure"
+msgstr "Greška CorvusPay Process Receipt"
+
+#: corvuspay-woocommerce-integration.php:34
+msgid "CorvusPay requires WooCommerce to be installed and active."
+msgstr ""
+"Da bi CorvusPay ispravno radio WooCommerce mora biti instaliran i aktiviran."
+
+#: includes/class-wc-gateway-corvuspay.php:637
+msgid "CorvusPay Success URL Failure"
+msgstr "Greška CorvusPay URL-a za uspjeh"
+
+#: includes/class-wc-gateway-corvuspay.php:1340
+msgid "CorvusPay Token ID"
+msgstr "ID CorvusPay tokena"
+
+#: includes/class-wc-gateway-corvuspay.php:1400
+msgid "CorvusPay Token ID is required."
+msgstr "ID CorvusPay tokena je obavezno polje."
+
+#. Plugin Name of the plugin
+msgid "CorvusPay WooCommerce Payment Gateway"
+msgstr "CorvusPay WooCommerce Payment Gateway"
+
+#: includes/class-wc-gateway-corvuspay.php:200
+msgid ""
+"CorvusPay WooCommerce Payment Gateway was updated successfully. CorvusPay "
+"Success URL and CorvusPay Cancel URL have been changed and have to be "
+"updated in CorvusPay Merchant Center. Go to the CorvusPay WooCommerce "
+"Payment Gateway plugin settings page to find out more."
+msgstr ""
+"CorvusPay WooCommerce Payment Gateway uspješno je ažuriran. Promijenjeni su "
+"CorvusPay URL za uspjeh i CorvusPay URL za neuspjeh te ih se mora ažurirati "
+"u CorvusPay Merchant Center-u. Više možete saznati na postavkama CorvusPay "
+"WooCommerce Payment Gateway dodatka."
+
+#: includes/settings.php:36
+msgid "Credit Card (CorvusPay)"
+msgstr "Kartično plaćanje (CorvusPay)"
+
+#: includes/settings.php:241
+msgid "Creditor Reference"
+msgstr "Poziv na broj"
+
+#: includes/settings.php:270
+msgid "Critical"
+msgstr "Critical (kritična)"
+
+#: includes/class-wc-gateway-corvuspay.php:863
+#: includes/class-wc-gateway-corvuspay.php:891
+msgid "Currency"
+msgstr "Valuta"
+
+#: includes/settings.php:275
+msgid "Debug"
+msgstr "Debug (otklanjanja grešaka)"
+
+#: includes/settings.php:40
+msgid "Description"
+msgstr "Opis"
+
+#: includes/settings.php:224
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: includes/class-wc-gateway-corvuspay.php:654
+msgid "Discount"
+msgstr "Popust"
+
+#: includes/settings.php:268
+msgid "Emergency"
+msgstr "Emergency (hitna)"
+
+#: includes/class-wc-gateway-corvuspay.php:510
+msgid "Empty POST data."
+msgstr "Prazni POST podaci."
+
+#: includes/settings.php:29
+msgid "Enable CorvusPay Gateway"
+msgstr "Omogući CorvusPay Gateway"
+
+#: includes/settings.php:237
+msgid "Enable Pay by IBAN functionality."
+msgstr "Omogući Pay by IBAN funkcionalnost."
+
+#: includes/settings.php:50
+msgid "Enable Tokenization (required for Subscriptions)"
+msgstr "Omogući tokenizaciju (nužno za pretplate)"
+
+#: includes/settings.php:27
+msgid "Enable/Disable"
+msgstr "Omogući/Onemogući"
+
+#: includes/settings.php:178
+msgid "Enable/Disable Auto-redirect"
+msgstr "Omogući/Onemogući automatsko preusmjeravanje"
+
+#: includes/settings.php:54
+msgid "Enable/Disable Currency based order routing"
+msgstr "Omogući/Onemogući usmjeravanje narudžbi po valuti"
+
+#: includes/settings.php:235
+msgid "Enable/Disable PIS Payments"
+msgstr "Omogući/Onemogući PIS plaćanja"
+
+#: includes/settings.php:206
+msgid "Enable/Disable Time Limit"
+msgstr "Omogući/Onemogući vremensko ograničenje"
+
+#: includes/settings.php:48
+msgid "Enable/Disable Tokenization"
+msgstr "Omogući/Onemogući tokenizaciju"
+
+#. translators: %s: Error description
+#: includes/class-corvuspay-api.php:134 includes/class-corvuspay-api.php:194
+#: includes/class-corvuspay-api.php:245
+#| msgid "CorvusPay encountered an error with description: \"%s\"."
+msgid "Encountered an error with description: \"%s\"."
+msgstr "Došlo je do greške s opisom: \"%s\"."
+
+#: includes/settings.php:65
+msgid "Environment"
+msgstr "Okolina"
+
+#: includes/settings.php:271
+msgid "Error"
+msgstr "Error (greška)"
+
+#: includes/class-wc-gateway-corvuspay.php:950
+msgid "Example row: \"EUR, USD; 123; abc\"."
+msgstr "Primjer unosa: \"EUR, USD; 123; abc\"."
+
+#: includes/class-wc-gateway-corvuspay.php:1055
+msgid "Example row: \"Visa; 1; 2; 10; 15\"."
+msgstr "Primjer unosa: \"Visa; 1; 2; 10; 15\"."
+
+#: includes/class-wc-gateway-corvuspay.php:951
+msgid ""
+"Explanation: All orders in EUR or USD will be routed to Store ID 123 using "
+"Secret Key \"abc\"."
+msgstr ""
+"Objašnjenje: Sve će narudžbe u EUR ili USD biti usmjerena na Store ID 123 "
+"koristeći Secret Key \"abc\"."
+
+#: includes/class-wc-gateway-corvuspay.php:1056
+msgid ""
+"Explanation: All Visa cards get a 10% discount if customer pays in one "
+"payment or in two installments. Some Visa cards, issued by a specific issuer,"
+" get a 15% discount under the same conditions. To setup specific discounts, "
+"contact CorvusPay."
+msgstr ""
+"Objašnjenje: Svim Visa karticama odobrava se 10% popusta ako kupac plati "
+"jednokratno ili na dvije rate. Nekim Visa karticama, koje je izdao poseban "
+"izdavatelj, odobrava se 15% popusta pod istim uvjetima. Za postavljanje "
+"posebnih popusta kontaktirajte CorvusPay."
+
+#. Description of the plugin
+msgid "Extends WooCommerce with CorvusPay Credit Card payments."
+msgstr "Proširuje WooCommerce sa CorvusPay kartičnim plaćanjima."
+
+#: includes/class-corvuspay-api.php:170
+msgid "Failed to get token for order."
+msgstr "Neuspješno dohvaćanje tokena za narudžbu."
+
+#: includes/class-wc-gateway-corvuspay.php:68
+msgid ""
+"For entering of card data users will be redirected to CorvusPay payment form."
+msgstr ""
+"Za unos kartičnih podataka korisnici se preusmjeravaju na CorvusPay platnu "
+"formu."
+
+#: includes/settings.php:173
+msgid "Form Options"
+msgstr "Opcije platne forme"
+
+#: includes/class-wc-gateway-corvuspay.php:998
+#: includes/class-wc-gateway-corvuspay.php:1031
+msgid "General discount"
+msgstr "Opći popust"
+
+#: includes/settings.php:249
+msgid "Hide payment methods"
+msgstr "Sakrij metode plaćanja"
+
+#: includes/settings.php:252
+msgid "Hide payment methods during checkout."
+msgstr "Sakrij metode plaćanja na platnoj formi."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.corvuspay.com/"
+msgstr "https://www.corvuspay.com/"
+
+#: includes/settings.php:274
+msgid "Informational"
+msgstr "Informational (informativna)"
+
+#: includes/settings.php:219
+msgid "Installments"
+msgstr "Rate"
+
+#: includes/class-wc-gateway-corvuspay.php:988
+msgid "Installments plan:"
+msgstr "Rate:"
+
+#: includes/class-wc-gateway-corvuspay.php:1189
+msgid "Invalid advanced installments."
+msgstr "Pogrešne postavke Naprednih rata."
+
+#: includes/class-wc-order-corvuspay.php:468
+msgid "Invalid amount."
+msgstr "Neispravan iznos."
+
+#: includes/class-wc-gateway-corvuspay.php:1101
+#: includes/class-wc-gateway-corvuspay.php:1107
+msgid "Invalid certificate."
+msgstr "Neispravan certifikat."
+
+#: includes/settings.php:208
+msgid "Limit payment time. Make sure WordPress keeps accurate time."
+msgstr ""
+"Ograniči vrijeme plaćanja. Provjerite ima li WordPress ispravno postavljeno "
+"vrijeme."
+
+#: includes/settings.php:263
+msgid "Log Level"
+msgstr "Razina log zapisa"
+
+#: includes/settings.php:199
+msgid "Mandatory"
+msgstr "Obavezne"
+
+#: includes/class-wc-gateway-corvuspay.php:997
+#: includes/class-wc-gateway-corvuspay.php:1026
+msgid "Maximum installments"
+msgstr "Najveći broj rata"
+
+#: includes/class-wc-gateway-corvuspay.php:996
+#: includes/class-wc-gateway-corvuspay.php:1021
+msgid "Minimum installments"
+msgstr "Najmanji broj rata"
+
+#: includes/class-wc-gateway-corvuspay.php:1095
+msgid ""
+"No certificate stored. Only certificates in PKCS#12 (*.p12) format are "
+"supported."
+msgstr ""
+"Certifikat nije pohranjen. Podržani su isključivo certifikati u PKCS#12 (*."
+"p12) formatu."
+
+#: includes/settings.php:198
+msgid "None"
+msgstr "Ništa"
+
+#: includes/settings.php:273
+msgid "Notice"
+msgstr "Notice (obavijesti)"
+
+#: includes/settings.php:43
+msgid "Online transaction processing."
+msgstr "Procesiranje transakcija na internetu."
+
+#: includes/settings.php:109 includes/settings.php:146
+msgid ""
+"Order number format. You can add the following keywords: {site_title}, "
+"{order_number} and {post_id}."
+msgstr ""
+"Oblik broja narudžbe. Možete dodati iduće ključne riječi: {site_title}, "
+"{order_number} i {post_id}."
+
+#: includes/class-wc-gateway-corvuspay.php:905
+#: includes/class-wc-gateway-corvuspay.php:962
+msgid "Other currencies"
+msgstr "Ostale valute"
+
+#: includes/settings.php:102 includes/settings.php:139
+msgid ""
+"Password is used only once, to decrypt the certificate. It will not be "
+"stored."
+msgstr ""
+"Lozinka se koristi samo jednom, za dekripciju certifikata. Lozinka se ne "
+"pohranjuje."
+
+#: includes/settings.php:244
+msgid ""
+"Payee model and reference number for PIS payments. Sequence \"{post_id}\" is "
+"replaced with WooCommerce Post ID. Sequence \"{order_number}\" is replaced "
+"with WooCommerce Order Number."
+msgstr ""
+"Model i poziv na broj primatelja za PIS plaćanja. Niz \"{post_id}\" će biti "
+"zamijenjen brojem WooCommerce objave. Niz \"{order_number}\" će biti "
+"zamijenjen brojem WooCommerce narudžbe."
+
+#: includes/settings.php:151
+msgid "Payment Action"
+msgstr "Vrsta plaćanja"
+
+#: includes/settings.php:184
+msgid "Payment Form Language"
+msgstr "Jezik platne forme"
+
+#: includes/class-wc-gateway-corvuspay.php:580
+msgid "Payment method already exists."
+msgstr "Metod plaćanja već postoji."
+
+#: includes/class-wc-gateway-corvuspay.php:1451
+msgid "Payment successful - payment card account debited."
+msgstr "Plaćanje uspješno - račun je terećen."
+
+#: includes/settings.php:214
+msgid "Payment time limit in seconds. Maximum value is \"900\" (15 minutes)."
+msgstr ""
+"Vremensko ograničenje plaćanja u sekundama. Najveća podržana vrijednost je "
+"\"900\" (15 minuta)."
+
+#: includes/settings.php:70
+msgid "Production"
+msgstr "Produkcija"
+
+#: includes/settings.php:131
+msgid "Production API Certificate"
+msgstr "Produkcijski API certifikat"
+
+#: includes/settings.php:137
+msgid "Production API Certificate Password"
+msgstr "Lozinka produkcijskog API certifikata"
+
+#: includes/settings.php:144
+msgid "Production Order Number Format"
+msgstr "Oblik produkcijskog broja narudžbe"
+
+#: includes/class-wc-gateway-corvuspay.php:878
+#: includes/class-wc-gateway-corvuspay.php:927 includes/settings.php:121
+msgid "Production Secret Key"
+msgstr "Produkcijski tajni ključ"
+
+#: includes/class-wc-gateway-corvuspay.php:869
+#: includes/class-wc-gateway-corvuspay.php:914 includes/settings.php:114
+msgid "Production Store ID"
+msgstr "ID produkcijskog prodajnog mjesto"
+
+#: includes/class-wc-gateway-corvuspay.php:853
+msgid "Production Stores settings:"
+msgstr "Postavke produkcijskih prodajnih mjesta:"
+
+#: includes/class-wc-gateway-corvuspay.php:589
+msgid "Refunding card storage transaction"
+msgstr "Povrat transakcije za pohranu kartice"
+
+#: includes/class-wc-gateway-corvuspay.php:1050
+msgid "Remove selected installment entry"
+msgstr "Ukloni označen unos rata"
+
+#: includes/class-wc-gateway-corvuspay.php:944
+msgid "Remove selected stores settings entry"
+msgstr "Ukloni označen unos postavki prodajnih mjesta"
+
+#: includes/settings.php:56
+msgid "Route orders by currency"
+msgstr "Usmjeravaj narudžbe po valuti"
+
+#: includes/settings.php:156
+msgid "Sale"
+msgstr "Prodaja"
+
+#: includes/class-wc-gateway-corvuspay.php:812
+msgid "Save to account"
+msgstr "Spremi na račun"
+
+#: includes/settings.php:193
+msgid "Send Cardholder Information"
+msgstr "Pošalji podatke o vlasniku kartice"
+
+#: includes/settings.php:196
+msgid ""
+"Send customer information to CorvusPay to speed up payment process. Can "
+"include name, address and contact details."
+msgstr ""
+"Pošalji korisnikove podatke u CorvusPay kako bi se ubrzalo proces plaćanja. "
+"Može uključivati ime, adresu i kontakt podatke."
+
+#: corvuspay-woocommerce-integration.php:71
+msgid "Settings"
+msgstr "Postavke"
+
+#: includes/settings.php:225
+msgid "Simple"
+msgstr "Jednostavne"
+
+#: includes/class-wc-gateway-corvuspay.php:441
+msgid "Something went wrong."
+msgstr "Nešto je pošlo po zlu."
+
+#: includes/class-wc-gateway-corvuspay.php:999
+#: includes/class-wc-gateway-corvuspay.php:1036
+msgid "Specific discount"
+msgstr "Poseban popust"
+
+#: includes/settings.php:163
+msgid "Success URL"
+msgstr "URL za uspjeh"
+
+#: includes/settings.php:71
+msgid "Test"
+msgstr "Test"
+
+#: includes/settings.php:94
+msgid "Test API Certificate"
+msgstr "Testni API certifikat"
+
+#: includes/settings.php:100
+msgid "Test API Certificate Password"
+msgstr "Lozinka testnog API certifikata"
+
+#: includes/settings.php:107
+msgid "Test Order Number Format"
+msgstr "Oblik broja testne narudžbe."
+
+#: includes/class-wc-gateway-corvuspay.php:876
+#: includes/class-wc-gateway-corvuspay.php:925 includes/settings.php:84
+msgid "Test Secret Key"
+msgstr "Testni tajni ključ"
+
+#: includes/class-wc-gateway-corvuspay.php:867
+#: includes/class-wc-gateway-corvuspay.php:912 includes/settings.php:77
+msgid "Test Store ID"
+msgstr "ID testnog prodajnog mjesto"
+
+#: includes/class-wc-gateway-corvuspay.php:851
+msgid "Test Stores settings:"
+msgstr "Postavke testnih prodajnih mjesta:"
+
+#: includes/class-wc-gateway-corvuspay.php:1158
+msgid ""
+"The \"Order Number Format\" field is required and must contain {post_id} or "
+"{order_number}."
+msgstr ""
+"Polje \"Oblik broja narudžbe\" je obavezno i mora sadržavati {post_id} ili "
+"{order_number}."
+
+#: includes/settings.php:42
+msgid ""
+"This controls the description which the user sees during checkout. You can "
+"add the following symbols: :amex: :dina: :diners: :discover: :jcb: :maestro: "
+":master: :visa: :card: :iban: :paysafecard: :wallet:"
+msgstr ""
+"Ova postavka određuje koji opis će se prikazivati korisniku prilikom "
+"plaćanja. Možete dodati sljedeće simbole: :amex: :dina: :diners: :discover: :"
+"jcb: :maestro: :master: :visa: :card: :iban: :paysafecard: :wallet:"
+
+#: includes/settings.php:35
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Ova postavka određuje koji naziv će se prikazivati korisniku prilikom "
+"plaćanja."
+
+#: includes/settings.php:266
+msgid "This setting specifies the log level."
+msgstr "Ova postavka određuje razinu log zapisa."
+
+#: includes/settings.php:187
+msgid "This setting specifies the payment form language."
+msgstr "Ova postavka određuje jezik platne forme."
+
+#: includes/settings.php:68
+msgid ""
+"This setting specifies whether you will process live transactions, or "
+"whether you will process simulated transactions."
+msgstr ""
+"Ova postavka određuje hoće li se obrađivati stvarne ili simulirane "
+"transakcije."
+
+#: includes/settings.php:212
+msgid "Time Limit in seconds"
+msgstr "Vremensko ograničenje u sekundama"
+
+#: includes/settings.php:33
+msgid "Title"
+msgstr "Naziv"
+
+#: includes/class-wc-gateway-corvuspay.php:1454
+msgid "Transaction date and time: "
+msgstr "Datum i vrijeme transakcije: "
+
+#: includes/settings.php:258
+msgid "Troubleshooting"
+msgstr "Rješavanje problema"
+
+#: includes/class-wc-gateway-corvuspay.php:1138
+msgid "Unable to read certificate. Please check password."
+msgstr "Neuspješno čitanje certifikata. Molimo provjerite lozinku."
+
+#: includes/class-wc-gateway-corvuspay.php:1128
+msgid "Unable to store certificate."
+msgstr "Neuspješno pohranjivanje certifikata."
+
+#: includes/class-wc-order-corvuspay.php:254
+#: includes/class-wc-order-corvuspay.php:280
+#: includes/class-wc-order-corvuspay.php:406
+#: includes/class-wc-order-corvuspay.php:421
+msgid "Unsupported currency."
+msgstr "Valuta nije podržana."
+
+#: includes/class-wc-gateway-corvuspay.php:1148
+#: includes/class-wc-order-corvuspay.php:536
+msgid "Unsupported time limit value. Valid range is from 1 to 900."
+msgstr ""
+"Vrijednost vremenskog ograničenja nije podržana. Podržana vrijednost je "
+"između 1 i 900."
+
+#: includes/class-wc-gateway-corvuspay.php:523
+msgid "Unsupported transaction action."
+msgstr "Transakcijska akcija nije podržana."
+
+#: includes/settings.php:272
+msgid "Warning"
+msgstr "Warning (upozorenja)"
+
+#. translators: %1$s: From status, %2$s: To status
+#: includes/class-wc-gateway-corvuspay.php:1693
+#: includes/class-wc-gateway-corvuspay.php:1727
+msgid "You are not allowed to change order from %1s to %2s."
+msgstr "Nije dozvoljeno mjenjanje narudžbi iz %1s u %2s."
