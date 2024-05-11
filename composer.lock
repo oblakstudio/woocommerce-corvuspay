@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0dfe42bfffbbe5179723e4cdecc8b44",
+    "content-hash": "8afad1a76d4e090f760f53b5a94d3430",
     "packages": [
         {
             "name": "corvuspay/corvuspay_wallet_php_sdk",
