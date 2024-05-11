@@ -1,0 +1,11 @@
+parameters:
+  level: 5
+  paths:
+    - includes
+  excludePaths:
+    analyseAndScan:
+      - .ddev
+    analyse:
+    - vendor
+  bootstrapFiles:
+    - vendor/php-stubs/woocommerce-stubs/woocommerce-stubs.php
